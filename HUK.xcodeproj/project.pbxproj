@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CDE86A629705FA30032F7B1 /* Gyro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE86A529705FA30032F7B1 /* Gyro.swift */; };
 		B69366E328A328000031F295 /* HUKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69366E228A328000031F295 /* HUKApp.swift */; };
 		B69366E528A328000031F295 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69366E428A328000031F295 /* ContentView.swift */; };
 		B69366E728A328010031F295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69366E628A328010031F295 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CDE86A529705FA30032F7B1 /* Gyro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gyro.swift; sourceTree = "<group>"; };
 		B69366DF28A328000031F295 /* HUK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69366E228A328000031F295 /* HUKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUKApp.swift; sourceTree = "<group>"; };
 		B69366E428A328000031F295 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		B69366E128A328000031F295 /* HUK */ = {
 			isa = PBXGroup;
 			children = (
+				2CDE86A529705FA30032F7B1 /* Gyro.swift */,
 				B69366E228A328000031F295 /* HUKApp.swift */,
 				B69366E428A328000031F295 /* ContentView.swift */,
 				B69366E628A328010031F295 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B69366E528A328000031F295 /* ContentView.swift in Sources */,
+				2CDE86A629705FA30032F7B1 /* Gyro.swift in Sources */,
 				B69366E328A328000031F295 /* HUKApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
