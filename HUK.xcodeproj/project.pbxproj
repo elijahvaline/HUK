@@ -14,6 +14,8 @@
 		B69366F428A328010031F295 /* HUKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69366F328A328010031F295 /* HUKTests.swift */; };
 		B69366FE28A328010031F295 /* HUKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69366FD28A328010031F295 /* HUKUITests.swift */; };
 		B693670028A328010031F295 /* HUKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69366FF28A328010031F295 /* HUKUITestsLaunchTests.swift */; };
+		B69C2C452976452E00BCF4E9 /* CustomSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69C2C442976452E00BCF4E9 /* CustomSceneView.swift */; };
+		B69C2C482976469700BCF4E9 /* monkey.scn in Resources */ = {isa = PBXBuildFile; fileRef = B69C2C472976469700BCF4E9 /* monkey.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B69366F928A328010031F295 /* HUKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HUKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69366FD28A328010031F295 /* HUKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUKUITests.swift; sourceTree = "<group>"; };
 		B69366FF28A328010031F295 /* HUKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B69C2C442976452E00BCF4E9 /* CustomSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSceneView.swift; sourceTree = "<group>"; };
+		B69C2C472976469700BCF4E9 /* monkey.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = monkey.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		B69366D628A328000031F295 = {
 			isa = PBXGroup;
 			children = (
+				B69C2C472976469700BCF4E9 /* monkey.scn */,
 				B69366E128A328000031F295 /* HUK */,
 				B69366F228A328010031F295 /* HUKTests */,
 				B69366FC28A328010031F295 /* HUKUITests */,
@@ -98,6 +103,7 @@
 				B69366E428A328000031F295 /* ContentView.swift */,
 				B69366E628A328010031F295 /* Assets.xcassets */,
 				B69366E828A328010031F295 /* Preview Content */,
+				B69C2C442976452E00BCF4E9 /* CustomSceneView.swift */,
 			);
 			path = HUK;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69C2C482976469700BCF4E9 /* monkey.scn in Resources */,
 				B69366EA28A328010031F295 /* Preview Assets.xcassets in Resources */,
 				B69366E728A328010031F295 /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B69366E528A328000031F295 /* ContentView.swift in Sources */,
+				B69C2C452976452E00BCF4E9 /* CustomSceneView.swift in Sources */,
 				B69366E328A328000031F295 /* HUKApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

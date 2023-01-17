@@ -6,14 +6,20 @@
 //
 
 import SwiftUI
+import SceneKit
 
 struct ContentView: View {
+    @State var scene: SCNScene? = .init(named: "monkey.scn")
     var body: some View {
-        Text("Happy birthday my good sir!")
+        VStack{
+            Text("Monkey")
+            CustomSceneView(scene: $scene)
+        }
+       
            
     }
 }
-
+ 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
